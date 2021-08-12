@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TelePortatio</title>
+    <link rel="icon" href="logo.jpeg">
+    <link rel="stylesheet" href="newcss.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar h-nav">
+            <ul class="nav-list v-class">
+                <div class="logo">
+                    <a href="#home"><img src="logo.jpeg" alt="logo"></a>
+                </div>
+                <li> <a href= "#home">home</a>  </li>
+                <li> <a href= "#morelocations">locations</a>  </li>
+                <li> <a href= "#teleportation">teleporters</a>  </li>
+                <li> <a href= "#contact">contact us</a>  </li>
+                <li> <a href= "#testimonials">testimonials</a>  </li>
+            </ul>
+            <div class="burger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+    <div class="slider" id="home">
+        <div class="myslider fade" style="display: block;">
+            <div class="text">
+                <h1>Top Locations</h1>
+                <p>Earth's Moon</p>
+            </div>
+            <img src="moon.jpg" style = "width:100%; height:100%" alt="">
+            <button><a href="#morelocations">View More</a></button>
+        </div>
+        <div class="myslider fade" style="display: block;">
+            <div class="text">
+                <h1>Top Locations</h1>
+                <p>Mars</p>
+            </div>
+            <img src="planet4.jpg" style = "width:100%; height:100%" alt="">
+            <button><a href="#morelocations">View More</a></button>
+        </div>
+        <div class="myslider fade">
+            <div class="text">
+                <h1>Top Locations</h1>
+                <p>Venus</p>
+            </div>
+            <img src="planet2.jpg" style = "width:100%; height:100%" alt="">
+            <button><a href="#morelocations">View More</a></button>
+        </div>
+        <div class="myslider fade">
+            <div class="text">
+                <h1>Top Locations</h1>
+                <p>Uranus</p>
+            </div>
+            <img src="planet7.jpg" style = "width:100%; height:100%" alt="">
+            <button><a href="#morelocations">View More</a></button>
+        </div>
+        <div class="myslider fade">
+            <div class="text">
+                <h1>Top Locations</h1>
+                <p>Pluto</p>
+            </div>
+            <img src="pluto.jpg" style = "width:100%; height:100%" alt="">
+            <button><a href="#morelocations">View More</a></button>
+        </div>
+        <div class="dotsbox" style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            
+            
+            
+        </div>
+    </div>
+    <div class="more">
+        <a href="#teleportation">View More &#8595;</a>
+    </div>
+
+    <section class="method" id="teleportation">
+        <div class="tele">
+            <h1>our teleportation service</h1>
+            <p>We have the best teleporters in the world, to provide you the best experience with utmost safety.</p>
+            <p>Contact us today to book the teleporter. <br>Also take a look at the world's most premium teleporters </p>
+        </div>
+        <div class="align">
+            <div class="img">
+                <div class="img__wrap2">
+                    <img src="1.jpeg" alt="">
+                    <h2 class="img__description2">starting at <br>$60,000</h2>
+                </div>
+                
+                <h1>3-d Model</h1>
+                <p>(scroll on model to take a closer look)</p>
+                <model-viewer class="hovered" src="teleport1.glb" alt="machine 1 3-d model" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls></model-viewer>
+            </div>
+            <div class="img">
+                <div class="img__wrap2">
+                    <img src="2.jpeg" alt="">
+                    <h2 class="img__description2">starting at <br> $40,000</h2>
+                    
+
+                </div>
+                <h1>3-d Model</h1>
+                <p>(scroll on model to take a closer look)</p>
+                <model-viewer class="hovered" src="tele1.glb" alt="machine 1 3-d model" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls></model-viewer>
+
+            </div>
+        </div>
+        
+    </section>
+
+
+    <section class="morelocations" id="morelocations">
+        
+        <h1>More Locations</h1>
+        <div class="row-one">
+            <div class="img__wrap">
+                <img class="img__img" src="planet1.jpg" />
+                <p class="img__description">Mercury</p>
+            </div>
+            <div class="img__wrap">
+                <img class="img__img" src="planet6.jpg" />
+                <p class="img__description">Saturn</p>
+            </div>
+            <div class="img__wrap">
+                <img class="img__img" src="planet8.jpg" />
+                <p class="img__description">Neptune</p>
+            </div>
+            
+        </div>
+        <div class="row-two">
+            <div class="img__wrap">
+                <img class="img__img" src="planet5.jpg" />
+                <p class="img__description">Jupiter</p>
+            </div>
+            
+        </div>
+        <div class="row-three">
+            <div class="img__wrap">
+                <img class="img__img" src="titan.jpg" />
+                <p class="img__description">Titan</p>
+            </div>
+            <div class="img__wrap">
+                <img class="img__img" src="enceladus.png" />
+                <p class="img__description">Enceladus</p>
+            </div>
+            <div class="img__wrap">
+                <img class="img__img" src="europa.jpg" />
+                <p class="img__description">Europa</p>
+            </div>
+            
+        </div>
+        <div class="row-four">
+            <div class="img__wrap">
+                <img class="img__img" src="io.jpg" />
+                <p class="img__description">Io</p>
+            </div>
+            <div class="img__wrap">
+                <img class="img__img" src="triton.jpg" />
+                <p class="img__description">Triton</p>
+            </div>
+            <div class="img__wrap">
+                <img class="img__img" src="ganymede.jpg" />
+                <p class="img__description">Ganymede</p>
+            </div>
+            
+        </div>
+        
+       
+    </section>
+
+    <section class="comingsoon" id="coming soon">
+        <h1>Locations Coming Soon </h1>
+        <div class="centre">
+            <div class="centred">
+                <h2>proximacentaury-b</h2>
+                <div class = "img__wrap1">
+                    <img src="proximacentaury-b.jpg"  alt="">
+                    <p class="img__description1">coming Soon</p>
+                </div>
+            </div>
+            <div class="centred">
+                <h2>proximacentaury-c</h2>
+                <div class = "img__wrap1">
+                    <img src="proximacentauryc.jpg"  alt="">
+                    <p class="img__description1">coming Soon</p>
+                </div>
+            </div>
+        </div>
+        
+        
+
+
+    </section>
+   
+
+    <section class="testimonial" id="testimonials">
+        <h1>testimonials</h1>
+        <div class="h">
+            <div class="container">
+                <div class="boxes">
+                    <img src="p3.png" alt="Avatar" style="width:100px">
+                <h1>Chris Fox. <span>(CEO at Mighty Schools).</span> </h1>
+                <p>Best Services Ever</p>
+                </div>
+                
+              </div>
+              
+              <div class="container">
+                  <div class="boxes">
+                    <img src="p4.png" alt="Avatar" style="width:100px">
+                    <h1>David John. <span>(Head at Stanford)</span> </h1>
+                    <p>No one can be better than TelePortatio</p>
+                  </div>
+                
+              </div>
+              <div class="container">
+                  <div class="boxes">
+                    <img src="p2.png" alt="Avatar" style="width:100px">
+                <h1>Rajkumar K.<span> (Event Organiser) </span></h1>
+                <p>Very happy with the quality of services and safety measures taken</p>
+                  </div>
+                
+              </div>
+              <div class="container">
+                  <div class="boxes">
+                    <img src="p1.png" alt="Avatar" style="width:100px">
+                    <h1> Sheldon C.<span> (A Traveller)</span ></h1>
+                    <p>Best Experience ever. Highly recommended to everyone</p>
+                  </div>
+                
+              </div>
+        </div>
+        
+        
+          
+    </section>
+   
+    <footer class="footer" id="contact">
+        <div class="form" id="contact us">
+            <h1>Contact Us</h1>
+            <form action="https://formsubmit.co/rahul3082004@gmail.com" method="POST">
+                <div class="new">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <input type="hidden" name="_subject" value="New submission!">
+                <div class="new">
+                    <input type="email" name="email" placeholder="Email Address">
+                </div>
+                <div class="new">
+                    <input type="text" name="place" placeholder="Place you want to visit" required>
+                    <input type="number" name="phonenumber" placeholder="Your contact number" minlength="10" maxlength="10" id="" required>
+                </div>
+                <div class="new">
+                    <textarea name="" placeholder="Sate your queries(optional)" id="" cols="30" rows="10"></textarea>
+                </div>
+                <input type="hidden" name="_autoresponse" value="Hello! Hope you are doing well,
+                We have received your request and soon an executive will contact you. 
+                Till then just sit back and relax. 
+                We are going to provide you the best serices for a safe and comfortable journey.">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/telepotatio1.html">
+                <div class="new"><button type="submit">Submit</button>
+                </div>
+           </form>
+        </div>
+		
+        
+        
+    </footer>
+  
+    
+
+
+		
+        
+        
+    </footer>
+    
+
+
+
+
+
+
+
+    
+
+
+    <script src="forweb2.js"></script>
+    <script>
+        alert('Your Form Has been Submitted, our agent will call you soon, check your mail for the confirmation regarding the same')
+    </script>
+</body>
+</html>
